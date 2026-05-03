@@ -1,0 +1,23 @@
+{
+  "name": "tijolo-blast",
+  "version": "1.0.0",
+  "description": "Um jogo 2D estilo Breakout/Arkanoid moderno construído com HTML5 Canvas.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "breakout",
+    "arkanoid",
+    "game",
+    "javascript",
+    "canvas",
+    "html5"
+  ],
+  "author": "FIC",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

@@ -1,0 +1,55 @@
+# Dependências
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Build e Saída
+dist/
+build/
+out/
+.next/
+.serverless/
+bin/
+obj/
+
+# Variáveis de Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.bak
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor e IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.classpath
+.project
+.settings/
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Outros temporários
+.cache/
+.eslintcache
+.stylelintcache
+node_modules_bak/
+
