@@ -1,80 +1,70 @@
-<<<<<<< HEAD
-# tijolo-blast
-=======
-# Tijolo Blast – Breakout Moderno
+# 🎮 Tijolo Blast – Breakout Moderno
 
-![Tijolo Blast](https://img.shields.io/badge/Status-Pronto_para_Jogar-brightgreen)
-![Licença](https://img.shields.io/badge/License-MIT-blue)
+**Tijolo Blast** é um jogo 2D estilo arcade inspirado nos clássicos *Arkanoid* e *Breakout*. Desenvolvido com foco em estética moderna, física fluida e mecânicas de power-ups, o projeto demonstra o poder do **HTML5 Canvas** e **JavaScript Vanilla**.
 
-**Tijolo Blast** é um jogo 2D inspirado no clássico Arkanoid/Breakout, desenvolvido com foco em estética moderna, física fluida e mecânicas de arcade. Criado inteiramente com **HTML5 Canvas** e **JavaScript Vanilla**.
+![Tijolo Blast Demo](https://via.placeholder.com/800x450.png?text=Tijolo+Blast+Gameplay)
 
----
+## 🚀 Funcionalidades
 
-## 🎮 Funcionalidades
+- **Níveis Dinâmicos:** 6 níveis com dificuldade progressiva.
+- **Tipos de Blocos:**
+  - 🟦 **Normal:** Quebra com um toque.
+  - 🟥 **Resistente:** Requer múltiplos impactos.
+  - 💥 **Explosivo:** Destrói blocos adjacentes.
+  - 🌟 **Bônus:** Solta power-ups úteis.
+  - ▦ **Indestrutível:** Obstáculos permanentes no cenário.
+- **Power-ups:**
+  - ⬛ **Barra+:** Aumenta o tamanho da raquete.
+  - ⚬ **Multi:** Spawna bolas extras no campo.
+  - 🐢 **Lento:** Reduz a velocidade das bolas temporariamente.
+- **Efeitos Visuais:** Sistema de partículas, rastros de movimento e transições suaves.
 
-- **Jogabilidade Clássica**: Controle a barra e destrua todos os blocos sem deixar a bola cair.
-- **Dificuldade Progressiva**: 6 níveis com aumento de velocidade e padrões complexos.
-- **Diversidade de Blocos**:
-  - 🟦 **Normais**: Destruídos com 1 hit.
-  - 🟥 **Resistentes**: Exigem 2 ou 3 hits (com barra de HP).
-  - 💥 **Explosivos**: Causam dano em área ao redor.
-  - ★ **Bônus**: Soltam power-ups valiosos.
-  - ▦ **Indestrutíveis**: Obstáculos estratégicos que não podem ser removidos.
-- **Power-ups**:
-  - **Barra Expandida**: Facilita a defesa.
-  - **Multi-bola**: Triplica o caos e a pontuação.
-  - **Modo Lento**: Reduz a velocidade para maior precisão.
-- **Efeitos Visuais**: Partículas de destruição, rastro da bola e cores neon vibrantes.
+## 🛠️ Tecnologias
 
----
+- **Linguagem:** JavaScript (ES6+)
+- **Renderização:** HTML5 Canvas API
+- **Estilização:** CSS3 Moderno (Gradients, Flexbox)
+- **Servidor Local:** [serve](https://www.npmjs.com/package/serve)
 
-## 🛠️ Tecnologias Utilizadas
+## 📦 Como Rodar o Projeto
 
-- **HTML5 Canvas**: Motor de renderização do jogo.
-- **CSS3**: Estilização da interface e animações de UI.
-- **JavaScript (ES6+)**: Lógica do jogo, sistema de partículas e física.
+1. **Pré-requisitos:**
+   - Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 
----
+2. **Instalação:**
+   No diretório do projeto, instale a dependência de servidor local:
+   ```bash
+   npm install
+   ```
 
-## 🚀 Como Executar
+3. **Execução:**
+   Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+   O jogo estará disponível em `http://localhost:3000` (ou na porta indicada no terminal).
 
-### Opção 1: Direto no Navegador
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
+## 🎮 Controles
 
-### Opção 2: Servidor Local (Recomendado para Dev)
-Se você tiver o Node.js instalado:
-```bash
-npm install
-npm start
-```
-O jogo estará disponível em `http://localhost:3000`.
+- **Mouse:** Mova lateralmente para controlar a raquete.
+- **Teclado:** Use as setas `←` e `→` ou as teclas `A` e `D`.
+- **Iniciar/Reiniciar:** Teclas `Espaço`, `Enter` ou `R`.
 
----
+## 📁 Estrutura do Repositório
 
-## 🕹️ Controles
-
-- **Mouse**: Mova horizontalmente para controlar a barra.
-- **Teclado**: Use `A` / `D` ou as setas `←` / `→`.
-- **Reiniciar**: Pressione `R` ou use o botão na interface.
-
----
-
-## 📂 Estrutura do Projeto
-
-```text
-.
-├── index.html      # Arquivo principal contendo HTML, CSS e JS
-├── package.json    # Metadados e scripts do projeto
-├── .gitignore      # Filtro de arquivos para o Git
-└── README.md       # Documentação do projeto
-```
+- `index.html`: Contém toda a lógica do jogo (JS), estilos (CSS) e estrutura (HTML).
+- `package.json`: Configurações de dependências e scripts.
+- `.gitignore`: Arquivos e pastas ignorados pelo Git.
+- `setup-remote.ps1`: Script para conexão rápida com o repositório GitHub.
 
 ---
 
-## 📝 Licença
+## 🔒 Segurança e Boas Práticas
 
-Este projeto está sob a licença MIT. Sinta-se à vontade para clonar, modificar e distribuir.
+Este projeto foi preparado seguindo padrões de DevOps:
+- **Git Flow:** Repositório inicializado e estruturado.
+- **Segurança:** Varredura de segredos realizada; variáveis sensíveis devem ser colocadas no `.env` (use o `.env.example` como base).
+- **Clean Code:** Lógica modularizada dentro do arquivo principal para fácil portabilidade.
 
 ---
-*Desenvolvido com ❤️ como demonstração de engenharia de software e game design.*
->>>>>>> dd1b29b (Initial commit: Tijolo Blast game core and documentation)
+*Desenvolvido por [TFS-Data](https://github.com/TFS-Data).*
